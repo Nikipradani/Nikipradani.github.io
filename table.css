@@ -1,0 +1,52 @@
+h1{
+    color: #f4806c;
+    font-family: myFirstFont;
+
+}
+p{
+  color: #f4806c;
+}
+body{
+  background-color: black;
+}
+table{
+  margin: center;
+  table-layout: fixed;
+  border: 3px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+}
+th{
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  color: white;
+  background-color: #15191c;
+
+}
+td{
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  color: #f4806c;
+  background-color: white;
+}
+.container{
+  width: 100%;
+  margin: center;
+  margin-top: 8vh;
+
+}
+.form{
+  width: 100%;
+padding: 0;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(Gloss_And_Bloom.ttf);
+}
